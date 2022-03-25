@@ -1395,7 +1395,7 @@ if os.path.exists( "processes" ) or os.path.exists( "load" ):
                 s = StackOrLines( cs, "Processes/"+procname, name,
                                   Title = title_start + gethuman("Processes/"+name),
                                   HeadSize = gethead("Processes/"+name),
-                                  extra_command = '--lower-limit 0 --upper-limit 1',
+                                  extra_command = '--lower-limit 0.1 --upper-limit 2.5',
                                   Unit = u,
                                   minmax=True )
 
